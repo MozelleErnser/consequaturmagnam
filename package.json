@@ -1,0 +1,39 @@
+{
+  "name": "consequaturmagnam",
+  "keywords": [
+    "ratione",
+    "trust-wallet",
+    "TrustWallet"
+  ],
+  "author": "NathanHilll",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MozelleErnser/consequaturmagnam.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "files": [
+    "dist/*"
+  ],
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "dependencies": {
+    "@web3-react/types": "^8.0.20-beta.0"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/MozelleErnser/consequaturmagnam.git/issues"
+  }
+}
